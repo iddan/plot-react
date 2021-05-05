@@ -9,7 +9,8 @@
     "build-storybook": "build-storybook",
     "check-formatting": "prettier --check .",
     "lint": "eslint .",
-    "check-typings": "tsc"
+    "check-typings": "tsc",
+    "prepare": "npm run build"
   },
   "author": "Iddan Aaronsohn <mail@aniddan.com> (https://aniddan.com)",
   "license": "ISC",
