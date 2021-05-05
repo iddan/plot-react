@@ -8,11 +8,7 @@
     "storybook": "start-storybook -p 6006 -s test",
     "build-storybook": "build-storybook"
   },
-  "author": {
-    "name": "Iddan Aaronsohn",
-    "email": "mail@aniddan.com",
-    "url": "https://aniddan.com"
-  },
+  "author": "Iddan Aaronsohn <mail@aniddan.com> (https://aniddan.com)",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.14.0",
@@ -30,5 +26,23 @@
     "@observablehq/plot": "^0.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iddan/plot-react.git"
+  },
+  "keywords": [
+    "react",
+    "plot",
+    "observable",
+    "data",
+    "visualization"
+  ],
+  "bugs": {
+    "url": "https://github.com/iddan/plot-react/issues"
+  },
+  "homepage": "https://github.com/iddan/plot-react#readme"
 }

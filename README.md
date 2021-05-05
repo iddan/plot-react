@@ -1,6 +1,6 @@
 # Plot React
 
-React wrapper for [@observablehq/plot](https://github.com/observablehq/plot)
+React wrapper for [@observablehq/plot](https://github.com/observablehq/plot), a JavaScript library for exploratory data visualization.
 
 ### Installing
 
