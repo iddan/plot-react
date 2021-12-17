@@ -11,11 +11,13 @@ const PlotFigure: FC<Props> = ({ options }) => {
 
   useEffect(() => {
     const plot = Plot.plot(options);
-    if (ref.current) {
-      if (ref.current.children[0]) {
-        ref.current.children[0].remove();
+    const element = ref.current;
+    if (element) {
+      const child = element.children[0];
+      if (child) {
+        child.remove();
       }
-      ref.current.appendChild(plot);
+      element.appendChild(plot);
     }
   }, [ref, options]);
 
