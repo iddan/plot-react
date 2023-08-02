@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from "react";
-import { Story, Meta } from "@storybook/react";
+import type { StoryFn, Meta } from "@storybook/react";
+import PlotFigure, { Props } from "./PlotFigure";
 // @ts-ignore
 import * as Plot from "@observablehq/plot";
 import * as d3 from "d3";
-import PlotFigure, { Props } from "./PlotFigure";
 
 export default {
   title: "PlotFigure",
   component: PlotFigure,
 } as Meta<Props>;
 
-export const Default: Story<Props> = () => {
+export const Default: StoryFn<Props> = () => {
   const [data, setData] = useState<unknown[]>();
   useEffect(() => {
     d3.csv("data/aapl.csv", d3.autoType).then((data) => {
