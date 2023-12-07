@@ -40,7 +40,7 @@
     "storybook": "^7.2.0",
     "typescript": "^4.5.4"
   },
-  "peerDependencies": {
+  "dependencies": {
     "@observablehq/plot": "^0.3.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
